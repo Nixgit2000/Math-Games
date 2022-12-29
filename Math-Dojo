@@ -21,10 +21,6 @@ def MathDojo():
         if count['Counter'] == 5:
             print('Enough! Proceed to level 2.\n')
             time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. You can see your breath.')
-            time.sleep(1)
-            print('You look around in an ice palace with a dojo mat in the middle.')
-            time.sleep(1)
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Multiply numbers between 5 and 12.')
             MathDojoLv2()
@@ -52,12 +48,7 @@ def MathDojoLv2():
         if count['Counter'] == 10:
             print('\nEnough! Proceed to level 3.\n')
             time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. You feel an uncomfortable heat eminating.')
-            time.sleep(1)
-            print('You look around and see the inside of a volcano with a dojo mat in the middle.')
-            time.sleep(1)
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
-
             print('Multiply numbers between 7 and 13.')
             time.sleep(1)
             print('Welcome to Level 3.')
@@ -83,12 +74,7 @@ def MathDojoLv3():
         if count['Counter'] == 15:
             print('\nEnough! Proceed to level 4.\n')
             time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. You feel a breeze.')
-            time.sleep(1)
-            print('You look around and see a forest with a dojo mat in the middle.')
-            time.sleep(1)
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
-            print('Welcome to Level 4.')
             print('Multiply numbers between 10 and 20.')
             MathDojoLv4()
         if count['Counter'] < 15:
@@ -111,10 +97,6 @@ def MathDojoLv4():
         count['Counter'] += 1
         if count['Counter'] == 20:
             print('\nEnough! Proceed to level 5.\n')
-            time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. Sand rushes in.')
-            time.sleep(1)
-            print('You look around and see the ancient vastness of a desert with a dojo mat in the middle.')
             time.sleep(1)
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Welcome to Level 5.')
@@ -141,10 +123,7 @@ def MathDojoLv5():
         if count['Counter'] == 25:
             print('\nEnough! Proceed to level 6.\n')
             time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. You walk into the cold.')
-            time.sleep(1)
-            print('You look around and see the inside of a dark castle with a dojo mat in the middle.')
-            time.sleep(1)
+
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Welcome to Level 6.')
             print('Multiply numbers between 30 and 40.')
@@ -170,10 +149,7 @@ def MathDojoLv6():
         if count['Counter'] == 30:
             print('\nEnough! Proceed to level 7.\n')
             time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. You see snow fluttering in.')
-            time.sleep(1)
-            print('You look around at the snowy peak of a mountain with a dojo mat in the middle.')
-            time.sleep(1)
+
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Welcome to Level 7.')
             print('Multiply numbers between 40 and 50.')
@@ -198,10 +174,7 @@ def MathDojoLv7():
         count['Counter'] += 1
         if count['Counter'] == 35:
             time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. Water begins to pour in.')
-            time.sleep(1)
-            print('You fight the tide and pull yourself into an underwater shipwreck with a dojo mat in the middle.')
-            time.sleep(1)
+
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Welcome to Level 8.')
             print('Multiply numbers between 50 and 60.')
@@ -227,10 +200,7 @@ def MathDojoLv8():
         if count['Counter'] == 40:
             print('\nEnough! Proceed to level 9.\n')
             time.sleep(1)
-            print('You swim to the back of the dojo where a door has opened. You are flushed out into the next room where you spilled into a giant pile of leaves.')
-            time.sleep(1)
-            print('You look around and see only leaves, and assume based on past levels that there\'s probably a dojo mat in the middle.')
-            time.sleep(1)
+
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Welcome to Level 9.')
             print('Multiply numbers between 60 and 70.')
@@ -257,10 +227,7 @@ def MathDojoLv9():
         if count['Counter'] == 45:
             print('\nEnough! Proceed to level 10.\n')
             time.sleep(1)
-            print('You fight through the leaves to the back of the dojo where you assume a door has opened. You feel an uncomfortable heat eminating.')
-            time.sleep(1)
-            print('You look around and see nothing but perfect beaches with golden sand with a dojo mat in the middle.')
-            time.sleep(1)
+
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Welcome to Level 10.')
             print('Multiply numbers between 70 and 80.')
@@ -286,10 +253,7 @@ def MathDojoLv10():
         if count['Counter'] == 50:
             print('\nEnough! Proceed to level 11.\n')
             time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. You can tell the exit is near.')
-            time.sleep(1)
-            print('You look around and see a haunted house with a dojo mat in the middle.')
-            time.sleep(1)
+
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Welcome to Level 11.')
             print('Multiply numbers between 80 and 90.')
@@ -315,10 +279,7 @@ def MathDojoLv11():
         if count['Counter'] == 55:
             print('\nEnough! Proceed to level 12.\n')
             time.sleep(1)
-            print('You walk to the back of the dojo where a door has opened. You hear strange gameshow noises.')
-            time.sleep(1)
-            print('You look around and see the inside of a cheesy gameshow with a dojo mat in the middle.')
-            time.sleep(1)
+
             print('\nOut of nowhere the questions kept coming... Dojo style.\n')
             print('Welcome to Level 12.')
             print('Multiply numbers between 90 and 100.')
