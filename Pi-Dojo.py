@@ -54,7 +54,7 @@ add the following if you want up to 200 digits:
 9
 """
 
-i = 102
+i = 1
 print('Welcome to the Pi Dojo.\n')
 time.sleep(1)
 print('For best results practice daily.\n')
@@ -68,8 +68,8 @@ def Function():
     if A == Pi[str(i)]:
         print('\n')
         i += 1
-        if i == 130:
-         print('Congratulations!/nYou can remember 129 digits of pi./nYou are officially a huge nerd.')
+        if i == 151:
+         print('Congratulations!/nYou can remember 150 digits of pi./nYou are officially a huge nerd.')
         else:
          Function()
     else:
