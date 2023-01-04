@@ -14,8 +14,8 @@ def Function():
     if A == Pi[str(i)]:
         print('\n')
         i += 1
-        if i == 151:
-         print('Congratulations!\nYou can remember 150 digits of pi.\nYou are officially a huge nerd.')
+        if i == 201:
+         print('Congratulations!\nYou can remember 200 digits of pi.')
         else:
          Function()
     else:
